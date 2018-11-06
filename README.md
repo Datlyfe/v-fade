@@ -1,26 +1,25 @@
 # v-smooth-img
 
-## Project setup
+Vue directive for making your images appear in a fade in animation (experimental, still in early stages)
+
+## Installation
 ```
-yarn install
+yarn add v-smooth-img
 ```
 
-### Compiles and hot-reloads for development
+## How To Use
+### main.js
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+import Vue from "vue";
+import vSmoothImg from "v-smooth-img";
+Vue.use(vSmoothImg)
 ```
 
-### Run your tests
+### Hello.vue
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+<template>
+  <div class="container">
+    <img v-smooth src="..." alt="...">
+  </div>
+</template>
 ```

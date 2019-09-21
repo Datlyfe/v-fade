@@ -1,22 +1,20 @@
 {
-  "name": "v-smooth-img",
-  "version": "0.1.0",
+  "name": "@datlyfe/v-fade",
+  "version": "1.0.0",
   "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib --name v-smooth-img ./src/index.js"
+    "build": "vue-cli-service build --target lib --name v-fade ./src/index.js"
   },
   "dependencies": {
-    "styled-components": "^4.0.3",
-    "vue": "^2.5.17"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
@@ -42,5 +40,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": "./dist/v-smooth-img.common.js"
+  "main": "./dist/v-fade.common.js"
 }

@@ -1,25 +1,29 @@
-# v-smooth-img
+# v-fade
 
 Vue directive for making your images appear in a fade in animation (experimental, still in early stages)
 
 ## Installation
-```
-yarn add v-smooth-img
+
+```sh
+yarn add @datlyfe/v-fade
 ```
 
 ## How To Use
+
 ### main.js
-```
+
+```javascript
 import Vue from "vue";
-import vSmoothImg from "v-smooth-img";
-Vue.use(vSmoothImg)
+import vFade from "@datlyfe/v-fade";
+Vue.use(vFade);
 ```
 
 ### Hello.vue
-```
+
+```html
 <template>
   <div class="container">
-    <img v-smooth src="..." alt="...">
+    <img v-fade src="..." alt="..." />
   </div>
 </template>
 ```

@@ -28,7 +28,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@datlyfe"
       - run: |
-          npm version from-git
+          npm --no-git-tag-version version --allow-same-version ${GITHUB_REF/refs\/tags\//}
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

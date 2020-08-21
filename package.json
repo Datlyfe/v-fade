@@ -5,11 +5,11 @@
     "build": "vue-cli-service build --target lib --name v-fade ./src/index.js"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-service": "^3.11.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.12"
   },
   "main": "./dist/v-fade.common.js"
 }
